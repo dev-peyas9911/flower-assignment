@@ -26,9 +26,13 @@
     display: flex;
 }
 
+.orange {
+    color: #E95A08;
+}
+
 /* Header section styles here */
 .header {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     justify-content: space-between;
     margin-top: 30px;
     align-items: center;
@@ -60,14 +64,67 @@
     margin-left: 10px;
 }
 
+/* Banner Styles Starts Here */
+.banner-container {
+    /* border: 2px solid red; */
+    margin-top: 120px;
+    align-items: end;
+}
+
+.banner-content {
+    flex: 1;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-description {
+    font-size: 1.4rem;
+    color: #00000050;
+    margin-top: 13px;
+}
+
+.banner-image {
+    flex: 1;
+}
+
+.banner-image img {
+    width: 100%;
+}
+
 /* Responsive for mobile devices */
 
 @media screen and (max-width: 576px) {
+    /* Header section responsive */
     .header {
         margin: 13px 16px 28px;
     }
+
     .links-container {
         display: none;
     }
+
+    /* Banner section responsive */
+    .banner-container {
+        flex-direction: column-reverse;
+        margin-top: 28px;
+        align-items: start;
+    }
+
+    .banner-content {
+        margin: 28px 16px 0 16px;
+    }
+
+    .banner-title {
+        font-size: 1.5rem;
+    }
+
+    .banner-description {
+        font-size: 0.9rem;
+    }
+
+    
 }
 
