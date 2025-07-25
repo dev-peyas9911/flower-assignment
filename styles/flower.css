@@ -30,6 +30,20 @@
     color: #E95A08;
 }
 
+/* Animation */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
 /* Header section styles here */
 .header {
     /* border: 2px solid red; */
@@ -159,6 +173,7 @@
     color: white;
     border: none;
     font-family: "Inter", sans-serif;
+    cursor: pointer;
 }
 
 /* Trusted section styles here */
@@ -191,6 +206,7 @@
 
 .wrapper-badge img {
     width: 100%;
+    animation: spin 5s linear 1s infinite forwards;
 }
 
 /* Trusted section styles */
@@ -566,6 +582,10 @@ footer ul a {
 
     .box-3 {
         border-radius: 14px;
+    }
+
+    .overlay {
+        opacity: 0.6;
     }
 
     .big-overlay {
