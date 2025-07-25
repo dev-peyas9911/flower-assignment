@@ -222,7 +222,7 @@
 }
 
 .trusted-content ul {
-    list-style-position: inside;
+    list-style-position: outside;
     color: #00000050;
     font-size: 1.375rem;
     padding: 5px 10px;
