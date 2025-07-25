@@ -647,10 +647,10 @@ footer ul a {
 
 
 /* Responsive for medium devices */
-@media screen and (min-width: 577px) and (max-width: 768px) {
+ /* @media screen and (min-width: 577px) and (max-width: 768px) { */
 
     /* Planet and card section  */
-    .plant-container {
+    /* .plant-container {
         margin-top: 65px;
     }
 
@@ -679,10 +679,10 @@ footer ul a {
 
     .btn-primary {
         padding: 20px 30px;
-    }
+    } */
 
     /* Trusted section styles */
-    .trusted-container {
+    /* .trusted-container {
         flex-direction: column;
         margin: 42px 15px 0 15px;
     }
@@ -699,6 +699,6 @@ footer ul a {
 
     .trusted-content ul {
         font-size: 0.875rem;
-    }
+    } */
 
-}
+/* } */
